@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "paths": { "~/*": ["./src/*"] },
+    "target": "ESNext",
+    "types": ["vite/client"]
+  },
+  "include": ["src"]
+}
